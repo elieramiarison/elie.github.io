@@ -25,7 +25,7 @@ const Contact = () => {
     const [mail, setMail] = useState<string>('')
     const [message, setMessage] = useState<string>('')
     const [loading, setLoading] = useState<boolean>(false)
-    const [succes, setSucces] = useState(false)
+    // const [succes, setSucces] = useState(false)
     const [err, setErr] = useState({
         name: false,
         mail: false,
@@ -65,7 +65,7 @@ const Contact = () => {
                     setMail('');
                     setMessage('');
                     setLoading(false);
-                    setSucces(true);
+                    // setSucces(true);
                     Swal.fire({
                         position: "center",
                         icon: "success",
