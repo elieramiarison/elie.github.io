@@ -1,0 +1,22 @@
+{
+    "prop": "A propos",
+    "competenceNav": "Compétences",
+    "salutation": "Bonjour, je suis",
+    "metier": "Développeur Web FullStack",
+    "dev": "Développeur JavaScript",
+    "mern": "Développeur MERN",
+    "telechargement": "Télécharger mon CV",
+    "propos": "A PROPOS DE MOI",
+    "apropos": "Fort d'une solide expérience dans le développement web, je suis un développeur Fullstack JavaScript passionné par les technologies web, en particulier JavaScript et ses frameworks. Autodidacte depuis le lycée, je suis une personne dynamique, toujours désireuse d'apprendre et de me perfectionner. Je combine mes compétences techniques avec une forte capacité d'adaptation, ce qui me permet de relever des défis complexes et de m'intégrer rapidement dans des projets en cours. Mon intérêt pour les nouvelles technologies de l'information (NTIC) me motive à m'immerger dans des solutions innovantes et à maîtriser rapidement de nouvelles technologies.",
+    "contact": "N'hésitez à me contacter, je répondrai dans les plus brefs délais",
+    "nom": "Entrez votre nom",
+    "mail": "Entrez votre adresse email",
+    "message": "Votre message",
+    "send": "ENVOYER",
+    "alName": "*Nom obligatoire",
+    "alMail": "*Email obligatoire",
+    "alMessage": "*Message obligatoire",
+    "succe": "Message envoyé",
+    "error": "Erreur lors de l'envoi",
+    "error1": "Veuillez réessayer plus tard."
+}

@@ -1,0 +1,22 @@
+{
+    "prop": "About me",
+    "competenceNav": "Skills",
+    "salutation": "Hello, I'm",
+    "metier": "FullStack Web Developer",
+    "dev": "JavaScript Developer",
+    "mern": "MERN Developer",
+    "telechargement": "Download my CV",
+    "propos": "ABOUT ME",
+    "apropos": "With solid experience in web development, I am a Fullstack JavaScript developer passionate about web technologies, in particular JavaScript and its frameworks. Self-taught since high school, I am a dynamic person, always eager to learn and improve. I combine my technical skills with a strong capacity for adaptation, which allows me to take on complex challenges and integrate quickly into ongoing projects. My interest in new information technologies (NICT) motivates me to immerse myself in innovative solutions and quickly master new technologies.",
+    "contact": "Do not hesitate to contact me, I will respond as soon as possible",
+    "nom": "Enter your name",
+    "mail": "Enter your email address",
+    "message": "Your message",
+    "send": "SEND",
+    "alName": "*Required name",
+    "alMail": "*Required email",
+    "alMessage": "*Required field",
+    "succe": "Message sent",
+    "error": "Error while sending",
+    "error1": "Please try again later."
+}

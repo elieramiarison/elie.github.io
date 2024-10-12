@@ -1,0 +1,91 @@
+.custom-icon {
+    color: #0c5c9a;
+    font-size: 0.75rem;
+}
+
+.custom-title {
+    font-size: 1.5rem;
+    color: #000000b6;
+}
+
+.list {
+    list-style: none;
+    cursor: pointer;
+}
+
+.star-svg {
+    opacity: 0.3;
+    filter: blur(5px);
+    transform: scale(9.5);
+    animation: spinAnimation ease normal infinite 50s;
+}
+
+.logo-animated {
+    animation: _3DAnimation ease normal infinite 10s;
+}
+
+.inputField {
+    width: 35em;
+    height: 3em;
+    border: 1px solid #ffffff57;
+    border-radius: .375em;
+    background-color: hsla(0, 0%, 100%, .1);
+    margin-bottom: 13px;
+}
+
+.textField {
+    width: 35em;
+    height: 6.9em;
+    border: 1px solid #ffffff57;
+    border-radius: .375em;
+    background-color: hsla(0, 0%, 100%, .1);
+    /* padding-top: 0px; */
+}
+
+@media (min-width: 600px) {
+    .inputField {
+        width: 15em;
+    }
+}
+
+@media (min-width: 900px) {
+    .inputField {
+        width: 30em;
+    }
+}
+
+@keyframes spinAnimation {
+    0% {
+        rotate: 0deg;
+    }
+
+    25% {
+        rotate: 180deg;
+    }
+
+    50% {
+        rotate: 360deg;
+    }
+
+    75% {
+        rotate: 180deg;
+    }
+}
+
+@keyframes _3DAnimation {
+    0% {
+        transform: scaleX(1);
+    }
+
+    25% {
+        transform: scaleX(0.90);
+    }
+
+    50% {
+        transform: scaleX(1);
+    }
+
+    75% {
+        transform: scaleX(0.90);
+    }
+}
