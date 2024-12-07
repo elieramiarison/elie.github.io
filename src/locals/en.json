@@ -1,6 +1,7 @@
 {
     "prop": "About me",
     "competenceNav": "Skills",
+    "projet": "Projects",
     "salutation": "Hello, I'm",
     "metier": "FullStack Web Developer",
     "dev": "JavaScript Developer",
@@ -18,5 +19,11 @@
     "alMessage": "*Required field",
     "succe": "Message sent",
     "error": "Error while sending",
-    "error1": "Please try again later."
+    "error1": "Please try again later.",
+    "project1": "Room booking site",
+    "project2": "Presentation site of PSY-KOZY Madagascar",
+    "project3": "Registration and Authentication",
+    "project4": "Back-office project at LIGHT MEDIA",
+    "project5": "Project in React showing interactive features",
+    "project6": "I created this app with ReactJS"
 }

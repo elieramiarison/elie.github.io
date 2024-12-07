@@ -78,6 +78,11 @@ export default function Navbar(props: Props) {
                         </Link>
                     </li>
                     <li className='list' style={{ paddingBottom: '1.5rem' }}>
+                        <Link to='projet' smooth={true} onClick={handleOpen}>
+                            {t('projet')}
+                        </Link>
+                    </li>
+                    <li className='list' style={{ paddingBottom: '1.5rem' }}>
                         <Link to='contact' smooth={true} onClick={handleOpen}>
                             Contact
                         </Link>
@@ -109,11 +114,6 @@ export default function Navbar(props: Props) {
                     </IconButton>
                     <Box sx={{ display: 'flex', ml: 'auto', justifyContent: 'center', alignItems: 'center', flexGrow: .45, }}>
                         <Box sx={{ display: { xs: 'none', sm: 'flex' }, }}>
-                            {/* {navItems.map((item) => (
-                                <Button key={item} sx={{ color: '#fff' }}>
-                                    {item}
-                                </Button>
-                            ))} */}
                             <ul style={{ display: 'flex', gap: '2rem' }}>
                                 <li className='list'>
                                     <Link to='accueil' smooth={true}>
@@ -128,6 +128,11 @@ export default function Navbar(props: Props) {
                                 <li className='list'>
                                     <Link to='competence' smooth={true}>
                                         {t('competenceNav')}
+                                    </Link>
+                                </li>
+                                <li className='list'>
+                                    <Link to='projet' smooth={true}>
+                                        {t('projet')}
                                     </Link>
                                 </li>
                                 <li className='list'>

@@ -68,7 +68,7 @@ const Accueil = () => {
                alignItems: 'center',
                gap: { sm: 8, md: 25 },
                flexDirection: { xs: 'column', sm: 'column', md: 'row' },
-               mx: 2,
+               mx: 5,
                paddingTop: 8
             }}
             >
@@ -152,8 +152,8 @@ const Accueil = () => {
                         maxWidth: 'fit-content',
                      }}>
                         <Button
-                           href="/CV_elie_ramiarison.pdf"
-                           download="CV_Elie_Ramiarison.pdf"
+                           href="/CV_elie_ramiarison_final.pdf"
+                           download="CV_Elie_Rms.pdf"
                            sx={{
                               padding: '10px 10px',
                               color: '#fff',
@@ -228,29 +228,30 @@ const Accueil = () => {
                         </Box>
                      </motion.div>
                   </div>
-
                </Box>
 
                {/* Image hero */}
-               <div ref={ref}>
-                  <motion.div variants={{
-                     hidden: { opacity: 0, y: 75 },
-                     visible: { opacity: 1, y: 0 },
-                  }}
-                     initial="hidden"
-                     animate={slideControls}
-                     transition={{ duration: 0.5, delay: 0.9 }}>
-                     <Box
-                        component='img'
-                        src={image}
-                        sx={{
-                           maxWidth: { xs: '10em', sm: '12em', md: '16rem' },
-                           zIndex: 1,
-                           paddingTop: { xs: '4em', sm: '1em' },
-                           opacity: 0.9
-                        }}
-                     />
-                  </motion.div>
+               <div>
+                  <div ref={ref}>
+                     <motion.div variants={{
+                        hidden: { opacity: 0, y: 75 },
+                        visible: { opacity: 1, y: 0 },
+                     }}
+                        initial="hidden"
+                        animate={slideControls}
+                        transition={{ duration: 0.5, delay: 0.9 }}>
+                        <Box
+                           component='img'
+                           src={image}
+                           sx={{
+                              maxWidth: { xs: '10em', sm: '12em', md: '16rem' },
+                              zIndex: 1,
+                              paddingTop: { xs: '4em', sm: '1em' },
+                              opacity: 0.9
+                           }}
+                        />
+                     </motion.div>
+                  </div>
                </div>
                <Box component='img' src={svg4} sx={{
                   position: 'absolute',

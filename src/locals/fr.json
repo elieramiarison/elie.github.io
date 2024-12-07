@@ -1,6 +1,7 @@
 {
     "prop": "A propos",
     "competenceNav": "Compétences",
+    "projet": "Projets",
     "salutation": "Bonjour, je suis",
     "metier": "Développeur Web FullStack",
     "dev": "Développeur JavaScript",
@@ -18,5 +19,11 @@
     "alMessage": "*Message obligatoire",
     "succe": "Message envoyé",
     "error": "Erreur lors de l'envoi",
-    "error1": "Veuillez réessayer plus tard."
+    "error1": "Veuillez réessayer plus tard.",
+    "project1": "Site de réservation d'une chambre",
+    "project2": "Site de présentation de PSY-KOZY Madagascar",
+    "project3": "Inscription et Authentification",
+    "project4": "Projet back-office chez LIGHT MEDIA",
+    "project5": "Projet en React montrant des fonctionalités interactives",
+    "project6": "J'ai créé cette application avec ReactJS"
 }
