@@ -56,7 +56,7 @@ const Project = () => {
                   display: 'flex',
                   flexDirection: 'column',
                   padding: { xs: '1rem', md: '1.5rem' },
-                  width: { xs: '20rem', sm: '23rem', md: '29rem' },
+                  width: { xs: '22rem', sm: '23rem', md: '29rem' },
                   transition: 'box-shadow 0.3s ease-in-out',
                   '&:hover': {
                     boxShadow: '0px 6px 20px rgb(14 81 139 / 13%)',
@@ -67,7 +67,7 @@ const Project = () => {
                       component='img'
                       src={item}
                       sx={{
-                        width: { xs: '18rem', sm: '21rem', md: '26rem' },
+                        width: { xs: '20rem', sm: '21rem', md: '26rem' },
                         height: { xs: '11rem', md: '15rem' },
                         marginBottom: '.5rem'
                       }}
