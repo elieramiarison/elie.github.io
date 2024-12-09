@@ -8,7 +8,7 @@ import svg4 from "../assets/svg4.png"
 import Button from '@mui/material/Button';
 import { IoMdDownload } from "react-icons/io";
 import { useTranslation } from 'react-i18next';
-import { SiSkype } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 import { motion, useInView, useAnimation } from "framer-motion"
 import { useRef, useEffect } from 'react';
 import { AnimatedTypingText } from '../animation/animation';
@@ -216,14 +216,14 @@ const Accueil = () => {
                            </motion.a>
 
                            <motion.a
-                              href='https://join.skype.com/invite/Ozeij1QubhYz'
+                              href='https://github.com/elieramiarison/'
                               target='_blank'
                               rel="noopener noreferrer"
                               initial={{ opacity: 0, y: 75 }}
                               animate={{ opacity: 1, y: 0 }}
                               transition={{ duration: 0.5, delay: 0.7 }}
                            >
-                              <SiSkype size={30} color='#00AFF0' />
+                              <FaGithub size={30} color="#4F4F4F" />
                            </motion.a>
                         </Box>
                      </motion.div>
@@ -241,13 +241,17 @@ const Accueil = () => {
                         animate={slideControls}
                         transition={{ duration: 0.5, delay: 0.9 }}>
                         <Box
-                           component='img'
-                           src={image}
                            sx={{
-                              maxWidth: { xs: '10em', sm: '12em', md: '16rem' },
+                              backgroundImage: `url(${image})`,
+                              backgroundSize: 'cover',
+                              backgroundPosition: 'center',
+                              backgroundRepeat: 'no-repeat',
+                              width: { xs: '10em', sm: '12em', md: '16rem' },
+                              height: { xs: '16.5rem', sm: '20rem', md: '26.5rem' },
                               zIndex: 1,
-                              paddingTop: { xs: '4em', sm: '1em' },
-                              opacity: 0.9
+                              marginTop: { xs: '4em', sm: '1em' },
+                              opacity: 0.9,
+                              pointerEvents: 'none',
                            }}
                         />
                      </motion.div>

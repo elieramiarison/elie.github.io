@@ -113,7 +113,7 @@ export default function Navbar(props: Props) {
                         <MenuIcon />
                     </IconButton>
                     <Box sx={{ display: 'flex', ml: 'auto', justifyContent: 'center', alignItems: 'center', flexGrow: .45, }}>
-                        <Box sx={{ display: { xs: 'none', sm: 'flex' }, }}>
+                        <Box sx={{ display: { xs: 'none', sm: 'flex' }, fontSize: { sm: '.8rem', md: '1rem' } }}>
                             <ul style={{ display: 'flex', gap: '2rem' }}>
                                 <li className='list'>
                                     <Link to='accueil' smooth={true}>

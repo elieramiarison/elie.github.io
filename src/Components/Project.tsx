@@ -39,9 +39,9 @@ const Project = () => {
           <Box sx={{
             marginTop: '5rem',
             display: 'flex',
+            gap: '3rem 5%',
             justifyContent: 'center',
             alignItems: 'center',
-            gap: '5rem',
             flexWrap: 'wrap'
           }}>
 
@@ -56,7 +56,7 @@ const Project = () => {
                   display: 'flex',
                   flexDirection: 'column',
                   padding: { xs: '1rem', md: '1.5rem' },
-                  width: { xs: '23rem', sm: '23rem', md: '29rem' },
+                  width: { xs: '21rem', sm: '23rem', md: '29rem' },
                   transition: 'box-shadow 0.3s ease-in-out',
                   '&:hover': {
                     boxShadow: '0px 6px 20px rgb(14 81 139 / 13%)',
@@ -64,26 +64,27 @@ const Project = () => {
                 }}>
                   <Box>
                     <Box
-                      component='img'
-                      src={item}
                       sx={{
-                        width: { xs: '21rem', sm: '21rem', md: '26rem' },
+                        backgroundImage: `url(${item})`,
+                        backgroundSize: 'cover',
+                        width: { xs: '19rem', sm: '21rem', md: '26rem' },
                         height: { xs: '11rem', md: '15rem' },
-                        marginBottom: '.5rem'
                       }}
                     />
 
-                    <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '.8rem' }}>
                       <Box sx={{ flexDirection: 'column' }}>
                         <Typography><span>{table.title[index]}</span></Typography>
                         <Typography sx={{ fontSize: '0.8rem', fontFamily: 'system-ui' }}>{table.desc[index]}</Typography>
                       </Box>
                       <Box
-                        component='img'
-                        src={table.logo[index]}
                         sx={{
+                          backgroundImage: `url(${table.logo[index]})`,
+                          backgroundSize: 'contain',
+                          backgroundPosition: 'center',
+                          backgroundRepeat: 'no-repeat',
                           width: '40px',
-                          height: 'auto'
+                          height: '40px',
                         }}
                       />
                     </Box>
